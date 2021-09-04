@@ -8,16 +8,6 @@
 
 config_version=4
 
-_global_script_classes=[ {
-"base": "KinematicBody2D",
-"class": "Ball",
-"language": "GDScript",
-"path": "res://Src/Ball.gd"
-} ]
-_global_script_class_icons={
-"Ball": ""
-}
-
 [android]
 
 name="BreakoutVs"
@@ -27,9 +17,14 @@ name="BreakoutVs"
 config/name="BreakoutVs"
 config/icon="res://icon.png"
 
+[autoload]
+
+GameState="*res://Src/GameState.gd"
+
 [global]
 
 import=false
+autoload=false
 
 [importer_defaults]
 

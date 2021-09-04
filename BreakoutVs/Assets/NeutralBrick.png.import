@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/WhiteBrick.png-d97db6a1c9dc6d182eade250a222dfb2.stex"
+path="res://.import/NeutralBrick.png-d27c55b066daae0b36c06c0d9c82f687.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/WhiteBrick.png"
-dest_files=[ "res://.import/WhiteBrick.png-d97db6a1c9dc6d182eade250a222dfb2.stex" ]
+source_file="res://Assets/NeutralBrick.png"
+dest_files=[ "res://.import/NeutralBrick.png-d27c55b066daae0b36c06c0d9c82f687.stex" ]
 
 [params]
 

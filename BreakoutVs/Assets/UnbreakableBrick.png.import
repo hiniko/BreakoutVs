@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/RainbowBrick.png-3ac91ec9f9edb1c46f0caadd55c191f7.stex"
+path="res://.import/UnbreakableBrick.png-5ca63823d6c0bea03ebfed49b45ee118.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/RainbowBrick.png"
-dest_files=[ "res://.import/RainbowBrick.png-3ac91ec9f9edb1c46f0caadd55c191f7.stex" ]
+source_file="res://Assets/UnbreakableBrick.png"
+dest_files=[ "res://.import/UnbreakableBrick.png-5ca63823d6c0bea03ebfed49b45ee118.stex" ]
 
 [params]
 

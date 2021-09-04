@@ -18,9 +18,14 @@ config/name="BreakoutVs"
 run/main_scene="res://Scenes/TestArena.tscn"
 config/icon="res://icon.png"
 
+[autoload]
+
+GameState="*res://Src/GameState.gd"
+
 [global]
 
 import=false
+autoload=false
 
 [importer_defaults]
 

@@ -13,16 +13,18 @@ enum BrickTypes {
 export(BrickTypes) var type setget UpdateSprite
 
 func UpdateSprite(value):
-	 if is_inside_tree():
-		 var sprite = get_node("./Sprite")
-		 var name = "res://Assets/" + BrickTypes.keys()[value]
-		 sprite.texture = load(name + "Brick.png"  )
-		 type = value
+	type = value
+	if is_inside_tree():
+		var sprite = get_node("./Sprite")
+		var name = "res://Assets/" + BrickTypes.keys()[value]
+		sprite.texture = load(name + "Brick.png"  )
+		 
 		
 	
 # Update the brick when updated in editor
-func property_list_changed_notify():
-	pass
+#func property_list_changed_notify():
+#	UpdateSprite(type)
+#	pass
 
 # Called when the node enters the scene tree for the first time.
 func _ready():

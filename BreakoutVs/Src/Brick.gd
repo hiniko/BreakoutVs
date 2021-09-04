@@ -10,10 +10,9 @@ enum BrickTypes {
 	Unbreakable,
 }
 
-export(BrickTypes) var type = BrickTypes.Neutral setget UpdateSprite
+export(BrickTypes) var type setget UpdateSprite
 
 func UpdateSprite(value):
-	
 	 if is_inside_tree():
 		 var sprite = get_node("./Sprite")
 		 var name = "res://Assets/" + BrickTypes.keys()[value]

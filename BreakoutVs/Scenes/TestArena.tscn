@@ -8,7 +8,6 @@
 [ext_resource path="res://Assets/BackgroundTile.png" type="Texture" id=8]
 
 [node name="Node2D" type="Node2D"]
-scale = Vector2( 1000, 1000 )
 
 [node name="Background" type="Node" parent="."]
 
@@ -16,380 +15,515 @@ scale = Vector2( 1000, 1000 )
 position = Vector2( 128, 128 )
 scale = Vector2( 4, 4 )
 texture = ExtResource( 8 )
+__meta__ = {
+"_edit_lock_": true
+}
 
 [node name="BackgroundTile2" type="Sprite" parent="Background"]
 position = Vector2( 128, 128 )
 scale = Vector2( 4, 4 )
 texture = ExtResource( 8 )
 offset = Vector2( 64, 0 )
+__meta__ = {
+"_edit_lock_": true
+}
 
 [node name="BackgroundTile3" type="Sprite" parent="Background"]
 position = Vector2( 128, 128 )
 scale = Vector2( 4, 4 )
 texture = ExtResource( 8 )
 offset = Vector2( 128, 0 )
+__meta__ = {
+"_edit_lock_": true
+}
 
 [node name="BackgroundTile4" type="Sprite" parent="Background"]
 position = Vector2( 128, 128 )
 scale = Vector2( 4, 4 )
 texture = ExtResource( 8 )
 offset = Vector2( 0, 64 )
+__meta__ = {
+"_edit_lock_": true
+}
 
 [node name="BackgroundTile5" type="Sprite" parent="Background"]
 position = Vector2( 128, 128 )
 scale = Vector2( 4, 4 )
 texture = ExtResource( 8 )
 offset = Vector2( 64, 64 )
+__meta__ = {
+"_edit_lock_": true
+}
 
 [node name="BackgroundTile6" type="Sprite" parent="Background"]
 position = Vector2( 128, 128 )
 scale = Vector2( 4, 4 )
 texture = ExtResource( 8 )
 offset = Vector2( 128, 64 )
+__meta__ = {
+"_edit_lock_": true
+}
 
 [node name="BackgroundTile7" type="Sprite" parent="Background"]
 position = Vector2( 128, 128 )
 scale = Vector2( 4, 4 )
 texture = ExtResource( 8 )
 offset = Vector2( 0, 128 )
+__meta__ = {
+"_edit_lock_": true
+}
 
 [node name="BackgroundTile8" type="Sprite" parent="Background"]
 position = Vector2( 128, 128 )
 scale = Vector2( 4, 4 )
 texture = ExtResource( 8 )
 offset = Vector2( 64, 128 )
+__meta__ = {
+"_edit_lock_": true
+}
 
 [node name="BackgroundTile9" type="Sprite" parent="Background"]
 position = Vector2( 128, 128 )
 scale = Vector2( 4, 4 )
 texture = ExtResource( 8 )
 offset = Vector2( 128, 128 )
+__meta__ = {
+"_edit_lock_": true
+}
 
 [node name="BackgroundTile10" type="Sprite" parent="Background"]
 position = Vector2( 896, 128 )
 scale = Vector2( 4, 4 )
 texture = ExtResource( 8 )
+__meta__ = {
+"_edit_lock_": true
+}
 
 [node name="BackgroundTile11" type="Sprite" parent="Background"]
 position = Vector2( 896, 128 )
 scale = Vector2( 4, 4 )
 texture = ExtResource( 8 )
 offset = Vector2( 64, 0 )
+__meta__ = {
+"_edit_lock_": true
+}
 
 [node name="BackgroundTile12" type="Sprite" parent="Background"]
 position = Vector2( 896, 128 )
 scale = Vector2( 4, 4 )
 texture = ExtResource( 8 )
 offset = Vector2( 128, 0 )
+__meta__ = {
+"_edit_lock_": true
+}
 
 [node name="BackgroundTile13" type="Sprite" parent="Background"]
 position = Vector2( 896, 128 )
 scale = Vector2( 4, 4 )
 texture = ExtResource( 8 )
 offset = Vector2( 0, 64 )
+__meta__ = {
+"_edit_lock_": true
+}
 
 [node name="BackgroundTile14" type="Sprite" parent="Background"]
 position = Vector2( 896, 128 )
 scale = Vector2( 4, 4 )
 texture = ExtResource( 8 )
 offset = Vector2( 64, 64 )
+__meta__ = {
+"_edit_lock_": true
+}
 
 [node name="BackgroundTile15" type="Sprite" parent="Background"]
 position = Vector2( 896, 128 )
 scale = Vector2( 4, 4 )
 texture = ExtResource( 8 )
 offset = Vector2( 128, 64 )
+__meta__ = {
+"_edit_lock_": true
+}
 
 [node name="BackgroundTile16" type="Sprite" parent="Background"]
 position = Vector2( 896, 128 )
 scale = Vector2( 4, 4 )
 texture = ExtResource( 8 )
 offset = Vector2( 0, 128 )
+__meta__ = {
+"_edit_lock_": true
+}
 
 [node name="BackgroundTile17" type="Sprite" parent="Background"]
 position = Vector2( 896, 128 )
 scale = Vector2( 4, 4 )
 texture = ExtResource( 8 )
 offset = Vector2( 64, 128 )
+__meta__ = {
+"_edit_lock_": true
+}
 
 [node name="BackgroundTile18" type="Sprite" parent="Background"]
 position = Vector2( 896, 128 )
 scale = Vector2( 4, 4 )
 texture = ExtResource( 8 )
 offset = Vector2( 128, 128 )
+__meta__ = {
+"_edit_lock_": true
+}
 
 [node name="BackgroundTile19" type="Sprite" parent="Background"]
 position = Vector2( 128, 896 )
 scale = Vector2( 4, 4 )
 texture = ExtResource( 8 )
+__meta__ = {
+"_edit_lock_": true
+}
 
 [node name="BackgroundTile20" type="Sprite" parent="Background"]
 position = Vector2( 127.46, 896 )
 scale = Vector2( 4, 4 )
 texture = ExtResource( 8 )
 offset = Vector2( 64, 0 )
+__meta__ = {
+"_edit_lock_": true
+}
 
 [node name="BackgroundTile21" type="Sprite" parent="Background"]
 position = Vector2( 128, 896 )
 scale = Vector2( 4, 4 )
 texture = ExtResource( 8 )
 offset = Vector2( 128, 0 )
+__meta__ = {
+"_edit_lock_": true
+}
 
 [node name="BackgroundTile22" type="Sprite" parent="Background"]
 position = Vector2( 128, 896 )
 scale = Vector2( 4, 4 )
 texture = ExtResource( 8 )
 offset = Vector2( 0, 64 )
+__meta__ = {
+"_edit_lock_": true
+}
 
 [node name="BackgroundTile23" type="Sprite" parent="Background"]
 position = Vector2( 128, 896 )
 scale = Vector2( 4, 4 )
 texture = ExtResource( 8 )
 offset = Vector2( 64, 64 )
+__meta__ = {
+"_edit_lock_": true
+}
 
 [node name="BackgroundTile24" type="Sprite" parent="Background"]
 position = Vector2( 128, 896 )
 scale = Vector2( 4, 4 )
 texture = ExtResource( 8 )
 offset = Vector2( 128, 64 )
+__meta__ = {
+"_edit_lock_": true
+}
 
 [node name="BackgroundTile25" type="Sprite" parent="Background"]
 position = Vector2( 128, 896 )
 scale = Vector2( 4, 4 )
 texture = ExtResource( 8 )
 offset = Vector2( 0, 128 )
+__meta__ = {
+"_edit_lock_": true
+}
 
 [node name="BackgroundTile26" type="Sprite" parent="Background"]
 position = Vector2( 128, 896 )
 scale = Vector2( 4, 4 )
 texture = ExtResource( 8 )
 offset = Vector2( 64, 128 )
+__meta__ = {
+"_edit_lock_": true
+}
 
 [node name="BackgroundTile27" type="Sprite" parent="Background"]
 position = Vector2( 128, 896 )
 scale = Vector2( 4, 4 )
 texture = ExtResource( 8 )
 offset = Vector2( 128, 128 )
+__meta__ = {
+"_edit_lock_": true
+}
 
 [node name="BackgroundTile28" type="Sprite" parent="Background"]
-position = Vector2( 896, 896.467 )
+position = Vector2( 896, 896 )
 scale = Vector2( 4, 4 )
 texture = ExtResource( 8 )
+__meta__ = {
+"_edit_lock_": true
+}
 
 [node name="BackgroundTile29" type="Sprite" parent="Background"]
 position = Vector2( 896, 896 )
 scale = Vector2( 4, 4 )
 texture = ExtResource( 8 )
 offset = Vector2( 64, 0 )
+__meta__ = {
+"_edit_lock_": true
+}
 
 [node name="BackgroundTile30" type="Sprite" parent="Background"]
 position = Vector2( 896, 896 )
 scale = Vector2( 4, 4 )
 texture = ExtResource( 8 )
 offset = Vector2( 128, 0 )
+__meta__ = {
+"_edit_lock_": true
+}
 
 [node name="BackgroundTile31" type="Sprite" parent="Background"]
 position = Vector2( 896, 896 )
 scale = Vector2( 4, 4 )
 texture = ExtResource( 8 )
 offset = Vector2( 0, 64 )
+__meta__ = {
+"_edit_lock_": true
+}
 
 [node name="BackgroundTile32" type="Sprite" parent="Background"]
 position = Vector2( 896, 896 )
 scale = Vector2( 4, 4 )
 texture = ExtResource( 8 )
 offset = Vector2( 64, 64 )
+__meta__ = {
+"_edit_lock_": true
+}
 
 [node name="BackgroundTile33" type="Sprite" parent="Background"]
 position = Vector2( 896, 896 )
 scale = Vector2( 4, 4 )
 texture = ExtResource( 8 )
 offset = Vector2( 128, 64 )
+__meta__ = {
+"_edit_lock_": true
+}
 
 [node name="BackgroundTile34" type="Sprite" parent="Background"]
 position = Vector2( 896, 896 )
 scale = Vector2( 4, 4 )
 texture = ExtResource( 8 )
 offset = Vector2( 0, 128 )
+__meta__ = {
+"_edit_lock_": true
+}
 
 [node name="BackgroundTile35" type="Sprite" parent="Background"]
 position = Vector2( 896, 896 )
 scale = Vector2( 4, 4 )
 texture = ExtResource( 8 )
 offset = Vector2( 64, 128 )
+__meta__ = {
+"_edit_lock_": true
+}
 
 [node name="BackgroundTile36" type="Sprite" parent="Background"]
 position = Vector2( 896, 896 )
 scale = Vector2( 4, 4 )
 texture = ExtResource( 8 )
 offset = Vector2( 128, 128 )
+__meta__ = {
+"_edit_lock_": true
+}
 
 [node name="Bricks" type="Node" parent="."]
 
 [node name="Brick2" parent="Bricks" instance=ExtResource( 1 )]
-position = Vector2( 608, 880 )
+position = Vector2( 291.27, 288 )
 type = 1
 
 [node name="Brick" parent="Bricks" instance=ExtResource( 1 )]
-position = Vector2( 672, 912 )
+position = Vector2( 355.27, 320 )
 type = 0
 
 [node name="Brick3" parent="Bricks" instance=ExtResource( 1 )]
-position = Vector2( 800, 912 )
+position = Vector2( 483.27, 320 )
 type = 0
 
 [node name="Brick4" parent="Bricks" instance=ExtResource( 1 )]
-position = Vector2( 928, 912 )
+position = Vector2( 611.27, 320 )
 type = 0
 
 [node name="Brick5" parent="Bricks" instance=ExtResource( 1 )]
-position = Vector2( 1056.01, 912 )
+position = Vector2( 739.28, 320 )
 type = 0
 
 [node name="Brick6" parent="Bricks" instance=ExtResource( 1 )]
-position = Vector2( 672, 848 )
+position = Vector2( 355.27, 256 )
 type = 0
 
 [node name="Brick7" parent="Bricks" instance=ExtResource( 1 )]
-position = Vector2( 800, 848 )
+position = Vector2( 483.27, 256 )
 type = 0
 
 [node name="Brick8" parent="Bricks" instance=ExtResource( 1 )]
-position = Vector2( 928, 848 )
+position = Vector2( 611.27, 256 )
 type = 0
 
 [node name="Brick9" parent="Bricks" instance=ExtResource( 1 )]
-position = Vector2( 1056.01, 848 )
+position = Vector2( 739.28, 256 )
 type = 0
 
 [node name="Brick10" parent="Bricks" instance=ExtResource( 1 )]
-position = Vector2( 608, 912 )
+position = Vector2( 291.27, 320 )
 type = 0
 
 [node name="Brick11" parent="Bricks" instance=ExtResource( 1 )]
-position = Vector2( 736, 912 )
+position = Vector2( 419.27, 320 )
 type = 0
 
 [node name="Brick12" parent="Bricks" instance=ExtResource( 1 )]
-position = Vector2( 864, 912 )
+position = Vector2( 547.27, 320 )
 type = 0
 
 [node name="Brick13" parent="Bricks" instance=ExtResource( 1 )]
-position = Vector2( 992.008, 912 )
+position = Vector2( 675.278, 320 )
 type = 0
 
 [node name="Brick14" parent="Bricks" instance=ExtResource( 1 )]
-position = Vector2( 608, 848 )
+position = Vector2( 291.27, 256 )
 type = 0
 
 [node name="Brick15" parent="Bricks" instance=ExtResource( 1 )]
-position = Vector2( 736, 848 )
+position = Vector2( 419.27, 256 )
 type = 0
 
 [node name="Brick16" parent="Bricks" instance=ExtResource( 1 )]
-position = Vector2( 864, 848 )
+position = Vector2( 547.27, 256 )
 type = 0
 
 [node name="Brick17" parent="Bricks" instance=ExtResource( 1 )]
-position = Vector2( 992.008, 848 )
+position = Vector2( 675.278, 256 )
 type = 0
 
 [node name="Brick18" parent="Bricks" instance=ExtResource( 1 )]
-position = Vector2( 800, 880 )
-
-[node name="Brick19" parent="Bricks" instance=ExtResource( 1 )]
-position = Vector2( 735.541, 879.533 )
-
-[node name="Brick20" parent="Bricks" instance=ExtResource( 1 )]
-position = Vector2( 928.467, 880 )
-
-[node name="Brick21" parent="Bricks" instance=ExtResource( 1 )]
-position = Vector2( 864, 880 )
-
-[node name="Brick22" parent="Bricks" instance=ExtResource( 1 )]
-position = Vector2( 1056.01, 880 )
+position = Vector2( 483.27, 288 )
 type = 1
 
+[node name="Brick19" parent="Bricks" instance=ExtResource( 1 )]
+position = Vector2( 419.278, 288 )
+type = 3
+
+[node name="Brick20" parent="Bricks" instance=ExtResource( 1 )]
+position = Vector2( 611.27, 288 )
+type = 0
+
+[node name="Brick21" parent="Bricks" instance=ExtResource( 1 )]
+position = Vector2( 547.27, 288 )
+type = 1
+
+[node name="Brick22" parent="Bricks" instance=ExtResource( 1 )]
+position = Vector2( 739.28, 288 )
+type = 0
+
 [node name="Brick24" parent="Bricks" instance=ExtResource( 1 )]
-position = Vector2( 672, 880 )
+position = Vector2( 355.27, 288 )
 type = 1
 
 [node name="Brick25" parent="Bricks" instance=ExtResource( 1 )]
-position = Vector2( 992, 880 )
-type = 1
+position = Vector2( 675.27, 288 )
+type = 0
 
 [node name="Brick26" parent="Bricks" instance=ExtResource( 1 )]
-position = Vector2( 544, 848.467 )
+position = Vector2( 227.27, 256 )
 type = 4
 
 [node name="Brick27" parent="Bricks" instance=ExtResource( 1 )]
-position = Vector2( 543.533, 880 )
+position = Vector2( 227.27, 288 )
 type = 4
 
 [node name="Brick28" parent="Bricks" instance=ExtResource( 1 )]
-position = Vector2( 544, 912.467 )
+position = Vector2( 227.27, 320 )
 type = 4
 
 [node name="Brick29" parent="Bricks" instance=ExtResource( 1 )]
-position = Vector2( 1120, 848.934 )
-type = 4
+position = Vector2( 803.27, 256 )
+type = 0
 
 [node name="Brick30" parent="Bricks" instance=ExtResource( 1 )]
-position = Vector2( 1120, 816.934 )
-type = 4
+position = Vector2( 803.27, 224 )
+type = 0
 
 [node name="Brick31" parent="Bricks" instance=ExtResource( 1 )]
-position = Vector2( 1120, 784 )
-type = 4
+position = Vector2( 803.27, 192 )
+type = 0
 
 [node name="Brick32" parent="Bricks" instance=ExtResource( 1 )]
-position = Vector2( 1120, 976 )
-type = 4
+position = Vector2( 803.27, 384 )
+type = 0
 
 [node name="Brick33" parent="Bricks" instance=ExtResource( 1 )]
-position = Vector2( 1120, 944 )
-type = 4
+position = Vector2( 803.27, 352 )
+type = 0
 
 [node name="Brick34" parent="Bricks" instance=ExtResource( 1 )]
-position = Vector2( 544, 976 )
+position = Vector2( 227.27, 384 )
 type = 4
 
 [node name="Brick35" parent="Bricks" instance=ExtResource( 1 )]
-position = Vector2( 544, 944.467 )
+position = Vector2( 227.27, 352 )
 type = 4
 
 [node name="Brick36" parent="Bricks" instance=ExtResource( 1 )]
-position = Vector2( 544, 816.467 )
+position = Vector2( 227.27, 224 )
 type = 4
 
 [node name="Brick37" parent="Bricks" instance=ExtResource( 1 )]
-position = Vector2( 544, 784.467 )
+position = Vector2( 227.27, 192 )
 type = 4
 
 [node name="Brick38" parent="Bricks" instance=ExtResource( 1 )]
-position = Vector2( 1120, 880 )
-type = 4
+position = Vector2( 803.27, 288 )
+type = 0
 
 [node name="Brick39" parent="Bricks" instance=ExtResource( 1 )]
-position = Vector2( 1120, 912.467 )
-type = 4
+position = Vector2( 803.27, 320 )
+type = 0
 
 [node name="Balls" type="Node" parent="."]
 
 [node name="Ball" parent="Balls" instance=ExtResource( 2 )]
-position = Vector2( 725.532, 426.302 )
+position = Vector2( 511.46, 160 )
 
 [node name="Walls" type="Node" parent="."]
 
 [node name="Wall" parent="Walls" instance=ExtResource( 3 )]
-position = Vector2( 7.62939e-06, 352 )
-scale = Vector2( 5, 20 )
+position = Vector2( 1045, 300 )
+scale = Vector2( 2, 30 )
+
+[node name="Wall2" parent="Walls" instance=ExtResource( 3 )]
+position = Vector2( -20, 300 )
+scale = Vector2( 2, 30 )
+
+[node name="Wall3" parent="Walls" instance=ExtResource( 3 )]
+position = Vector2( 512, -20.925 )
+rotation = 1.57079
+scale = Vector2( 2, 53 )
+
+[node name="Wall4" parent="Walls" instance=ExtResource( 3 )]
+position = Vector2( 511.46, 620.504 )
+rotation = 1.57079
+scale = Vector2( 2, 53 )
 
 [node name="Paddles" type="Node" parent="."]
 
 [node name="Paddle2" type="Sprite" parent="Paddles"]
-position = Vector2( 776, 1264 )
+position = Vector2( 515.27, 520 )
 texture = ExtResource( 7 )
 
 [node name="Blue_Paddle" parent="Paddles" instance=ExtResource( 6 )]
-position = Vector2( 768, 392 )
+position = Vector2( 512, 64 )
+
+[node name="Camera2D" type="Camera2D" parent="."]
+visible = false
+anchor_mode = 0
+current = true
+
+[node name="Brick" parent="." instance=ExtResource( 1 )]
+position = Vector2( 168, 437.817 )
+type = 0

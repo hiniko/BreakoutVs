@@ -172,7 +172,7 @@ texture = ExtResource( 8 )
 offset = Vector2( 128, 128 )
 
 [node name="BackgroundTile28" type="Sprite" parent="Background"]
-position = Vector2( 896, 896 )
+position = Vector2( 896, 896.467 )
 scale = Vector2( 4, 4 )
 texture = ExtResource( 8 )
 
@@ -298,45 +298,44 @@ type = 0
 position = Vector2( 800, 880 )
 
 [node name="Brick19" parent="Bricks" instance=ExtResource( 1 )]
-position = Vector2( 736.008, 880 )
-type = 1
+position = Vector2( 735.541, 879.533 )
 
 [node name="Brick20" parent="Bricks" instance=ExtResource( 1 )]
-position = Vector2( 928, 880 )
+position = Vector2( 928.467, 880 )
 
 [node name="Brick21" parent="Bricks" instance=ExtResource( 1 )]
 position = Vector2( 864, 880 )
-type = 1
 
 [node name="Brick22" parent="Bricks" instance=ExtResource( 1 )]
 position = Vector2( 1056.01, 880 )
+type = 1
 
 [node name="Brick24" parent="Bricks" instance=ExtResource( 1 )]
 position = Vector2( 672, 880 )
-type = 3
+type = 1
 
 [node name="Brick25" parent="Bricks" instance=ExtResource( 1 )]
 position = Vector2( 992, 880 )
-type = 3
+type = 1
 
 [node name="Brick26" parent="Bricks" instance=ExtResource( 1 )]
-position = Vector2( 544, 848 )
+position = Vector2( 544, 848.467 )
 type = 4
 
 [node name="Brick27" parent="Bricks" instance=ExtResource( 1 )]
-position = Vector2( 544, 880 )
+position = Vector2( 543.533, 880 )
 type = 4
 
 [node name="Brick28" parent="Bricks" instance=ExtResource( 1 )]
-position = Vector2( 544, 912 )
+position = Vector2( 544, 912.467 )
 type = 4
 
 [node name="Brick29" parent="Bricks" instance=ExtResource( 1 )]
-position = Vector2( 1120, 848 )
+position = Vector2( 1120, 848.934 )
 type = 4
 
 [node name="Brick30" parent="Bricks" instance=ExtResource( 1 )]
-position = Vector2( 1120, 816 )
+position = Vector2( 1120, 816.934 )
 type = 4
 
 [node name="Brick31" parent="Bricks" instance=ExtResource( 1 )]
@@ -356,15 +355,15 @@ position = Vector2( 544, 976 )
 type = 4
 
 [node name="Brick35" parent="Bricks" instance=ExtResource( 1 )]
-position = Vector2( 544, 944 )
+position = Vector2( 544, 944.467 )
 type = 4
 
 [node name="Brick36" parent="Bricks" instance=ExtResource( 1 )]
-position = Vector2( 544, 816 )
+position = Vector2( 544, 816.467 )
 type = 4
 
 [node name="Brick37" parent="Bricks" instance=ExtResource( 1 )]
-position = Vector2( 544, 784 )
+position = Vector2( 544, 784.467 )
 type = 4
 
 [node name="Brick38" parent="Bricks" instance=ExtResource( 1 )]
@@ -372,7 +371,7 @@ position = Vector2( 1120, 880 )
 type = 4
 
 [node name="Brick39" parent="Bricks" instance=ExtResource( 1 )]
-position = Vector2( 1120, 912 )
+position = Vector2( 1120, 912.467 )
 type = 4
 
 [node name="Balls" type="Node" parent="."]

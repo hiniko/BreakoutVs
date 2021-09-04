@@ -1,43 +1,45 @@
+tool
+
 extends KinematicBody2D
 
+enum direction { none,left,right }
+enum PaddleType { P1, P2 }
+
+export(PaddleType) var paddle setget SetPaddle
+
+var InputHeader = ""
 var moveSpeed = 250 
 var velocity = Vector2(0,0)
 var maxSpeed = 500
 var friction = 0.1
-var applyFriction = false
-enum direction { none,left,right }
 var currentDirection = direction.none
 
+func SetPaddle(value):
+	paddle = value
+	InputHeader = PaddleType.keys()[value].to_lower()
+	if is_inside_tree():
+		var sprite = get_node("./Sprite")
+		var name = "res://Assets/" + PaddleType.keys()[value]
+		sprite.texture = load(name + "Paddle.png")
+	
+
 func _ready():
-	pass
-
-#func _input(event):
-#
-#	var newDir = null
-#
-#	if event.is_action_pressed("p1_paddle_left"):
-#		newDir = direction.left 
-#	elif event.is_action_pressed("p1_paddle_right"):
-#		newDir = direction.right
-#	else:
-#		newDir = direction.none
-#		print("no direction")
-#
-#	if (event is InputEventKey && event.is_echo() || newDir != currentDirection):
-#		currentDirection = newDir
-#		print(event.as_text())
-		
-
+	SetPaddle(paddle)
 
 func _physics_process(delta):
-	
+	if(Engine.editor_hint): 
+		return;
+		
+	print(InputHeader)
+	# This is better not in input as we don't have keyrepeat issues
+	# we are seeing in MacOS. You shoudln't have to turn off your
+	# key repeat to do this... 
+	# Would also work a lot better if we could work out properly 
+	# What to do when two keys are pressed. This is just a compromise	 
 	var dir = direction.none
-	
-	if(Input.is_action_pressed("p1_paddle_left") && currentDirection != direction.left):
-		print("Left")
+	if(Input.is_action_pressed(InputHeader + "_paddle_left") && currentDirection != direction.left):
 		dir = direction.left
-	elif(Input.is_action_pressed("p1_paddle_right") && currentDirection != direction.right):
-		print("Right")
+	elif(Input.is_action_pressed(InputHeader + "_paddle_right") && currentDirection != direction.right):
 		dir = direction.right
 		
 	currentDirection = dir 
@@ -50,12 +52,8 @@ func _physics_process(delta):
 	else:
 		velocity.x -= velocity.x*friction
 		
-	
-	
-	
 	move_and_collide(velocity*delta)
 	velocity = velocity.clamped(maxSpeed)
 	
-	print(velocity)
 	
 	

@@ -28,7 +28,7 @@ func _physics_process(_delta):
 	if(Engine.editor_hint):
 		return
 
-func destroy_brick(paddle):
-	print("IM HIT %s" % name)
-	emit_signal("brick_destroyed", paddle, 1)
+func destroy_brick(lastTouch):
+	print("IM HIT %s by %d" % [name, lastTouch])
+	GameSignals.emit_signal("BrickDestroyed", lastTouch, 1)
 	queue_free()

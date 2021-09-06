@@ -4,7 +4,7 @@
 [ext_resource path="res://Src/Ball.gd" type="Script" id=2]
 
 [sub_resource type="CircleShape2D" id=1]
-radius = 12.8941
+radius = 12.4958
 
 [node name="Ball" type="KinematicBody2D" groups=[
 "balls",

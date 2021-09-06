@@ -17,14 +17,14 @@ position = Vector2( 128, 128 )
 scale = Vector2( 4, 4 )
 texture = ExtResource( 8 )
 
-[node name="Player1_counter" type="Label" parent="Background/BackgroundTile"]
+[node name="player1ScoreCounter" type="Label" parent="Background/BackgroundTile"]
 margin_left = -32.0
 margin_top = -32.0
 margin_right = 39.0
 margin_bottom = -18.0
 theme = SubResource( 1 )
 custom_colors/font_color = Color( 0, 0.764706, 1, 1 )
-text = "Player 1: 0 "
+text = "Score: 0 "
 valign = 1
 __meta__ = {
 "_edit_use_anchors_": false
@@ -66,13 +66,13 @@ scale = Vector2( 4, 4 )
 texture = ExtResource( 8 )
 offset = Vector2( 0, 128 )
 
-[node name="Player2_counter" type="Label" parent="Background/BackgroundTile7"]
+[node name="player2ScoreCounter" type="Label" parent="Background/BackgroundTile7"]
 margin_left = -32.0
 margin_top = 96.0
 margin_right = 35.0
 margin_bottom = 110.0
 custom_colors/font_color = Color( 1, 0, 0, 1 )
-text = "Player 2: 0"
+text = "Score: 0"
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -94,17 +94,43 @@ position = Vector2( 896, 128 )
 scale = Vector2( 4, 4 )
 texture = ExtResource( 8 )
 
+[node name="player1LivesCounter" type="Label" parent="Background/BackgroundTile10"]
+anchor_left = 1.0
+anchor_right = 1.0
+margin_left = -81.0
+margin_top = -32.0
+margin_right = -32.0
+margin_bottom = -18.0
+custom_colors/font_color = Color( 0, 0.709804, 1, 1 )
+text = "Lives: 3"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
 [node name="BackgroundTile13" type="Sprite" parent="Background"]
-position = Vector2( 896, 128 )
+position = Vector2( 894.989, 128 )
 scale = Vector2( 4, 4 )
 texture = ExtResource( 8 )
 offset = Vector2( 0, 64 )
 
 [node name="BackgroundTile16" type="Sprite" parent="Background"]
-position = Vector2( 896, 128 )
+position = Vector2( 894.989, 128 )
 scale = Vector2( 4, 4 )
 texture = ExtResource( 8 )
 offset = Vector2( 0, 128 )
+
+[node name="player2LivesCounter" type="Label" parent="Background/BackgroundTile16"]
+anchor_left = 1.0
+anchor_right = 1.0
+margin_left = -77.0
+margin_top = 96.0
+margin_right = -32.0
+margin_bottom = 110.0
+custom_colors/font_color = Color( 1, 0, 0, 1 )
+text = "Lives 3"
+__meta__ = {
+"_edit_use_anchors_": false
+}
 
 [node name="Bricks" type="Node" parent="."]
 
@@ -243,7 +269,7 @@ rotation = 1.57079
 scale = Vector2( 2, 53 )
 
 [node name="Wall4" parent="Walls" instance=ExtResource( 3 )]
-position = Vector2( 511.46, 620.504 )
+position = Vector2( 510.449, 620.504 )
 rotation = 1.57079
 scale = Vector2( 2, 53 )
 

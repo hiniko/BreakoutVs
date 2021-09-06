@@ -5,9 +5,21 @@ func _ready():
 
 var player1Score = 0
 var player2Score = 0 
+var player1Lives = 3
+var player2Lives = 3
 
-func coin_counter():
+func playerScore():
 	player1Score += 1
-	$Player1_counter.text = str(player1Score)
+	$player1ScoreCounter.text = str(player1Score)
 	player2Score += 1 
-	$Player2_counter.text = str(player2Score)
+	$player2ScoreCounter.text = str(player2Score)
+	
+func playerLives():
+	player1Lives -= 1
+	$player1LivesCounter.text = str(player1Lives)
+	player2Lives -= 1 
+	$player2ivesCounter.text = str(player2Lives)
+#	if lives == 0 
+#	display "game over"
+
+	

@@ -2,8 +2,6 @@ tool
 
 extends RigidBody2D
 
-signal brick_destroyed(by_paddle, value)
-
 enum BrickTypes {
 	Neutral,
 	Red,

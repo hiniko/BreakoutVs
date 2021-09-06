@@ -11,6 +11,10 @@
 
 [node name="Node2D" type="Node2D"]
 script = ExtResource( 4 )
+__meta__ = {
+"_edit_horizontal_guides_": [ 69.5553, 689.501, 9.71716, 757.847, 384.0 ],
+"_edit_vertical_guides_": [ 381.1, 757.887, 10.296 ]
+}
 
 [node name="Background" type="Node" parent="."]
 
@@ -23,7 +27,7 @@ __meta__ = {
 }
 
 [node name="BackgroundTile2" type="Sprite" parent="Background"]
-position = Vector2( 128, 129.013 )
+position = Vector2( 128, 128 )
 scale = Vector2( 4, 4 )
 texture = ExtResource( 8 )
 offset = Vector2( 64, 0 )
@@ -94,66 +98,67 @@ __meta__ = {
 "_edit_lock_": true
 }
 
-[node name="BackgroundTile10" type="Sprite" parent="Background"]
-position = Vector2( 896, 128 )
-scale = Vector2( 4, 4 )
-texture = ExtResource( 8 )
-__meta__ = {
-"_edit_lock_": true
-}
-
-[node name="BackgroundTile13" type="Sprite" parent="Background"]
-position = Vector2( 894.989, 128 )
-scale = Vector2( 4, 4 )
-texture = ExtResource( 8 )
-offset = Vector2( 0, 64 )
-__meta__ = {
-"_edit_lock_": true
-}
-
-[node name="BackgroundTile16" type="Sprite" parent="Background"]
-position = Vector2( 894.989, 128 )
-scale = Vector2( 4, 4 )
-texture = ExtResource( 8 )
-offset = Vector2( 0, 128 )
-__meta__ = {
-"_edit_lock_": true
-}
-
 [node name="Bricks" type="Node" parent="."]
 
-[node name="Brick21" parent="Bricks" instance=ExtResource( 1 )]
-position = Vector2( 672, 304 )
-
 [node name="Brick23" parent="Bricks" instance=ExtResource( 1 )]
-position = Vector2( 160, 304 )
+position = Vector2( 160, 368 )
 
 [node name="Brick24" parent="Bricks" instance=ExtResource( 1 )]
-position = Vector2( 224, 304 )
+position = Vector2( 224, 368 )
 
 [node name="Brick25" parent="Bricks" instance=ExtResource( 1 )]
-position = Vector2( 288, 304 )
+position = Vector2( 288, 368 )
 
 [node name="Brick27" parent="Bricks" instance=ExtResource( 1 )]
-position = Vector2( 96, 304 )
+position = Vector2( 96, 368 )
 
 [node name="Brick33" parent="Bricks" instance=ExtResource( 1 )]
-position = Vector2( 32, 304 )
+position = Vector2( 32, 368 )
+
+[node name="Brick26" parent="Bricks" instance=ExtResource( 1 )]
+position = Vector2( 160, 400 )
 
 [node name="Brick28" parent="Bricks" instance=ExtResource( 1 )]
-position = Vector2( 800, 304 )
+position = Vector2( 224, 400 )
 
 [node name="Brick29" parent="Bricks" instance=ExtResource( 1 )]
-position = Vector2( 864, 304 )
+position = Vector2( 288, 400 )
 
 [node name="Brick30" parent="Bricks" instance=ExtResource( 1 )]
-position = Vector2( 928, 304 )
+position = Vector2( 96, 400 )
+
+[node name="Brick34" parent="Bricks" instance=ExtResource( 1 )]
+position = Vector2( 32, 400 )
 
 [node name="Brick31" parent="Bricks" instance=ExtResource( 1 )]
-position = Vector2( 992, 304 )
+position = Vector2( 608, 368 )
 
 [node name="Brick32" parent="Bricks" instance=ExtResource( 1 )]
-position = Vector2( 736, 304 )
+position = Vector2( 672, 368 )
+
+[node name="Brick35" parent="Bricks" instance=ExtResource( 1 )]
+position = Vector2( 736, 368 )
+
+[node name="Brick36" parent="Bricks" instance=ExtResource( 1 )]
+position = Vector2( 544, 368 )
+
+[node name="Brick37" parent="Bricks" instance=ExtResource( 1 )]
+position = Vector2( 480, 368 )
+
+[node name="Brick38" parent="Bricks" instance=ExtResource( 1 )]
+position = Vector2( 608, 400 )
+
+[node name="Brick39" parent="Bricks" instance=ExtResource( 1 )]
+position = Vector2( 672, 400 )
+
+[node name="Brick40" parent="Bricks" instance=ExtResource( 1 )]
+position = Vector2( 736, 400 )
+
+[node name="Brick41" parent="Bricks" instance=ExtResource( 1 )]
+position = Vector2( 544, 400 )
+
+[node name="Brick42" parent="Bricks" instance=ExtResource( 1 )]
+position = Vector2( 480, 400 )
 
 [node name="Balls" type="Node" parent="."]
 
@@ -163,38 +168,40 @@ collision/safe_margin = 0.08
 
 [node name="Walls" type="Node" parent="."]
 
-[node name="Wall" parent="Walls" instance=ExtResource( 3 )]
-position = Vector2( 1045, 300 )
-scale = Vector2( 2, 30 )
-
 [node name="Wall2" parent="Walls" instance=ExtResource( 3 )]
-position = Vector2( -20, 300 )
-scale = Vector2( 2, 30 )
+position = Vector2( -19.9807, 383.958 )
+scale = Vector2( 2, 38.422 )
 
 [node name="Wall3" parent="Walls" instance=ExtResource( 3 )]
-position = Vector2( 512, -20.925 )
-rotation = 1.57079
-scale = Vector2( 2, 53 )
+position = Vector2( 788.361, 383.937 )
+scale = Vector2( 2, 38.422 )
 
 [node name="Wall4" parent="Walls" instance=ExtResource( 3 )]
-position = Vector2( 510.449, 620.504 )
+position = Vector2( 383.925, 787.975 )
 rotation = 1.57079
-scale = Vector2( 2, 53 )
+scale = Vector2( 2, 38.356 )
+
+[node name="Wall5" parent="Walls" instance=ExtResource( 3 )]
+position = Vector2( 384, -20.2625 )
+rotation = 1.57079
+scale = Vector2( 2, 38.356 )
 
 [node name="Paddles" type="Node" parent="."]
 
 [node name="P1Paddle" parent="Paddles" instance=ExtResource( 6 )]
-position = Vector2( 512, 65.5087 )
+position = Vector2( 381.1, 69.5553 )
 paddle = 0
 
 [node name="P2Paddle" parent="Paddles" instance=ExtResource( 6 )]
-position = Vector2( 504.255, 481.686 )
+position = Vector2( 381.1, 689.501 )
 
 [node name="UI" type="Node" parent="."]
 
 [node name="player1ScoreCounter" type="Label" parent="UI"]
-margin_right = 71.0
-margin_bottom = 14.0
+margin_left = 10.296
+margin_top = 9.71716
+margin_right = 81.296
+margin_bottom = 23.7172
 theme = SubResource( 1 )
 custom_colors/font_color = Color( 0, 0.764706, 1, 1 )
 text = "Score: 0 "
@@ -204,9 +211,10 @@ __meta__ = {
 }
 
 [node name="player2ScoreCounter" type="Label" parent="UI"]
-margin_top = 512.0
-margin_right = 67.0
-margin_bottom = 526.0
+margin_left = 10.296
+margin_top = 744.0
+margin_right = 77.296
+margin_bottom = 758.0
 custom_colors/font_color = Color( 1, 0, 0, 1 )
 text = "Score: 0"
 __meta__ = {
@@ -216,9 +224,10 @@ __meta__ = {
 [node name="player1LivesCounter" type="Label" parent="UI"]
 anchor_left = 1.0
 anchor_right = 1.0
-margin_left = -196.0
-margin_right = -147.0
-margin_bottom = 14.0
+margin_left = -56.0
+margin_top = 9.71716
+margin_right = -7.0
+margin_bottom = 23.7172
 custom_colors/font_color = Color( 0, 0.709804, 1, 1 )
 text = "Lives: 3"
 __meta__ = {
@@ -226,12 +235,12 @@ __meta__ = {
 }
 
 [node name="player2LivesCounter" type="Label" parent="UI"]
-anchor_left = 1.0
-anchor_right = 1.0
-margin_left = -181.011
-margin_top = 512.0
-margin_right = -136.011
-margin_bottom = 526.0
+anchor_left = 0.999512
+anchor_right = 0.999512
+margin_left = -55.625
+margin_top = 744.0
+margin_right = -10.625
+margin_bottom = 758.0
 custom_colors/font_color = Color( 1, 0, 0, 1 )
 text = "Lives 3"
 __meta__ = {

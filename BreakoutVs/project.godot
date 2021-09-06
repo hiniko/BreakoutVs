@@ -18,10 +18,16 @@ _global_script_classes=[ {
 "class": "Paddle",
 "language": "GDScript",
 "path": "res://Src/Paddle.gd"
+}, {
+"base": "Node",
+"class": "Signals",
+"language": "GDScript",
+"path": "res://Src/signals.gd"
 } ]
 _global_script_class_icons={
 "Ball": "",
-"Paddle": ""
+"Paddle": "",
+"Signals": ""
 }
 
 [android]
@@ -38,6 +44,12 @@ config/icon="res://icon.png"
 
 GameState="*res://Src/GameState.gd"
 GameSignals="*res://Src/Signals.gd"
+
+[display]
+
+window/size/width=768
+window/size/height=768
+window/size/resizable=false
 
 [global]
 

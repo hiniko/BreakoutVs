@@ -30,7 +30,6 @@ func _physics_process(delta):
 	if(Engine.editor_hint): 
 		return;
 		
-	print(InputHeader)
 	# This is better not in input as we don't have keyrepeat issues
 	# we are seeing in MacOS. You shoudln't have to turn off your
 	# key repeat to do this... 

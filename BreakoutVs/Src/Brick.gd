@@ -2,6 +2,8 @@ tool
 
 extends RigidBody2D
 
+signal brick_destroyed(by_paddle, value)
+
 enum BrickTypes {
 	Neutral,
 	Red,
@@ -19,11 +21,6 @@ func UpdateSprite(value):
 		var name = "res://Assets/" + BrickTypes.keys()[value]
 		sprite.texture = load(name + "Brick.png")
 
-# Update the brick when updated in editor
-#func property_list_changed_notify():
-#	UpdateSprite(type)
-#	pass
-
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	UpdateSprite(type)
@@ -32,13 +29,8 @@ func _ready():
 func _physics_process(_delta):
 	if(Engine.editor_hint):
 		return
-	
-	var collisions = get_colliding_bodies()
-	for body in collisions:
-		if(body.in_group == "balls"):
-			print("A ball hit me! I guess I'm done...")
-			queue_free()
 
-func _on_body_entered(_body):
-	print("Got hit, Time to go...") 
+func destroy_brick(paddle):
+	print("IM HIT %s" % name)
+	emit_signal("brick_destroyed", paddle, 1)
 	queue_free()

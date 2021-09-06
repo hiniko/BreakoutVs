@@ -2,6 +2,8 @@ tool
 
 extends KinematicBody2D
 
+class_name Paddle
+
 enum direction { none,left,right }
 enum PaddleType { P1, P2 }
 
@@ -26,6 +28,7 @@ func SetPaddle(value):
 
 func _ready():
 	SetPaddle(paddle)
+	add_to_group("paddles")
 
 func _physics_process(delta):
 	if(Engine.editor_hint): 

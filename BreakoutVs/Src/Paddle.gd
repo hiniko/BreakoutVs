@@ -6,12 +6,13 @@ enum direction { none,left,right }
 enum PaddleType { P1, P2 }
 
 export(PaddleType) var paddle setget SetPaddle
+export var friction = 0.1
 
 var InputHeader = ""
 var moveSpeed = 250 
 var velocity = Vector2(0,0)
 var maxSpeed = 500
-var friction = 0.1
+
 var currentDirection = direction.none
 
 func SetPaddle(value):

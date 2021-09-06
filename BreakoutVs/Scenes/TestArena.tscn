@@ -15,8 +15,23 @@ position = Vector2( 128, 128 )
 scale = Vector2( 4, 4 )
 texture = ExtResource( 8 )
 
+[node name="Label" type="Label" parent="Background/BackgroundTile"]
+anchor_left = -0.00791001
+anchor_top = -0.00395507
+anchor_right = -0.00791001
+anchor_bottom = -0.00395507
+margin_left = -31.4089
+margin_top = -30.4242
+margin_right = 39.5911
+margin_bottom = -16.4242
+text = "Player 1: 0 "
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
 [node name="BackgroundTile2" type="Sprite" parent="Background"]
-position = Vector2( 128, 128 )
+position = Vector2( 128, 129.013 )
 scale = Vector2( 4, 4 )
 texture = ExtResource( 8 )
 offset = Vector2( 64, 0 )
@@ -260,7 +275,7 @@ scale = Vector2( 2, 53 )
 [node name="Paddles" type="Node" parent="."]
 
 [node name="P1Paddle" parent="Paddles" instance=ExtResource( 6 )]
-position = Vector2( 512, 63.4837 )
+position = Vector2( 512, 65.5087 )
 paddle = 0
 
 [node name="P2Paddle" parent="Paddles" instance=ExtResource( 6 )]

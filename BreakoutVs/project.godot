@@ -37,7 +37,7 @@ config/icon="res://icon.png"
 [autoload]
 
 GameState="*res://Src/GameState.gd"
-GameSignals="*res://Src/Signals.gd"
+GameSignals="*res://Src/GameSignals.gd"
 
 [display]
 

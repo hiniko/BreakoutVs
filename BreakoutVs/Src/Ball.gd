@@ -32,11 +32,19 @@ func _physics_process(delta):
 		if(collisionInfo.collider.is_in_group("bricks")):
 			if(lastTouch != BallOwner.Neutral):
 				collisionInfo.collider.destroy_brick(lastTouch)
+		
+		if(collisionInfo.collider.name == "bottomWall"):
+			GameSignals.emit_signal("lifeLost", collisionInfo.collider.name)
+		
+		if(collisionInfo.collider.name == "topWall"):
+			GameSignals.emit_signal("lifeLost", collisionInfo.collider.name)
 				
 	
 func updateBallSprite(newOwner):
 	# Update Sprite based on the last touch 
 	var name = "res://Assets/" + BallOwner.keys()[newOwner]
 	sprite.texture = load(name + "Ball.png")
+	
+
 
 	

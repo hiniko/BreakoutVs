@@ -14,25 +14,28 @@ onready var p2LivesUI = get_node("UI/player2LivesCounter")
 
 func _ready():
 	GameSignals.connect("BrickDestroyed", self, "_playerScore")
-	
+	GameSignals.connect("lifeLost", self, "_playerLives")
 func _process(delta):
 	pass
 
 func _playerScore(lastTouch, value):
 	print("calc Score")
-	if lastTouch == Ball.BallOwner.Red:
+	if lastTouch == Ball.BallOwner.Blue:
 		player1Score += value
 		p1ScoreUI.text = str(player1Score)
-	elif lastTouch == Ball.BallOwner.Blue:
+	elif lastTouch == Ball.BallOwner.Red:
 		player2Score += value
 		p2ScoreUI.text = str(player2Score)
 	
-func playerLives():
-	player1Lives -= 1
-	p1LivesUI.text = str(player1Lives)
-	player2Lives -= 1 
-	p2LivesUI.text = str(player2Lives)
-#	if lives == 0 
+func _playerLives(wallName):
+	if wallName == "topWall":
+		player1Lives -= 1
+		p1LivesUI.text = str(player1Lives)
+	elif wallName == "bottomWall":
+		player2Lives -= 1 
+		p2LivesUI.text = str(player2Lives)
+	if player1Lives || player2Lives == 0:
+		print("Game over")
 #	display "game over"
 
 	

@@ -168,20 +168,20 @@ collision/safe_margin = 0.08
 
 [node name="Walls" type="Node" parent="."]
 
-[node name="Wall2" parent="Walls" instance=ExtResource( 3 )]
+[node name="leftWall" parent="Walls" instance=ExtResource( 3 )]
 position = Vector2( -19.9807, 383.958 )
 scale = Vector2( 2, 38.422 )
 
-[node name="Wall3" parent="Walls" instance=ExtResource( 3 )]
+[node name="rightWall" parent="Walls" instance=ExtResource( 3 )]
 position = Vector2( 788.361, 383.937 )
 scale = Vector2( 2, 38.422 )
 
-[node name="Wall4" parent="Walls" instance=ExtResource( 3 )]
+[node name="bottomWall" parent="Walls" instance=ExtResource( 3 )]
 position = Vector2( 383.925, 787.975 )
 rotation = 1.57079
 scale = Vector2( 2, 38.356 )
 
-[node name="Wall5" parent="Walls" instance=ExtResource( 3 )]
+[node name="topWall" parent="Walls" instance=ExtResource( 3 )]
 position = Vector2( 384, -20.2625 )
 rotation = 1.57079
 scale = Vector2( 2, 38.356 )
@@ -213,7 +213,7 @@ __meta__ = {
 [node name="player2ScoreCounter" type="Label" parent="UI"]
 margin_left = 10.296
 margin_top = 744.0
-margin_right = 77.296
+margin_right = 61.296
 margin_bottom = 758.0
 custom_colors/font_color = Color( 1, 0, 0, 1 )
 text = "Score: 0"

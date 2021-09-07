@@ -18,16 +18,10 @@ _global_script_classes=[ {
 "class": "Paddle",
 "language": "GDScript",
 "path": "res://Src/Paddle.gd"
-}, {
-"base": "Node",
-"class": "Signals",
-"language": "GDScript",
-"path": "res://Src/signals.gd"
 } ]
 _global_script_class_icons={
 "Ball": "",
-"Paddle": "",
-"Signals": ""
+"Paddle": ""
 }
 
 [android]

@@ -16,6 +16,8 @@ func _ready():
 	GameSignals.connect("BrickDestroyed", self, "_playerScore")
 	GameSignals.connect("lifeLost", self, "_playerLives")
 	$GameOverScreen.get_child(0).hide()
+	GameState.RegisterBallSpawns(get_node("./BallSpawns"))
+	
 func _process(delta):
 	pass
 
